@@ -1,0 +1,109 @@
+body {
+    padding-top: 70px; 
+}
+
+
+
+.slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.caption {
+    height: 130px;
+    overflow: hidden;
+}
+
+.caption h4 {
+    white-space: nowrap;
+}
+
+.thumbnail img {
+    width: 100%;
+	height: 100%;
+	
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+	height:200px;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+	
+
+
+
+.hash{
+	color: red;
+	text-align:center;
+}
+
+.para{
+	padding-left:3.5em;
+	padding-right:3.5em;
+	text-align: justify;
+	margin-bottom: 2em;
+	
+}
+.logos{
+	height:10em;
+	width:10em;
+	border: 2px solid #000000;
+	border-radius: 50%;
+	margin-left: 3.5em;
+}
+
+.items{
+	height: 12em;
+	width: 12em;
+	
+}
+.contacts{
+	height:6em;
+	width:6em;
+	border: 2px solid #000000;
+	margin-left: 3.5em;
+	border-radius: 50%;
+	
+}
+
+.right{
+float: right;
+}
+
+
+
+
+#dogphone{
+width:15%;
+margin-left:auto;
+margin-right:auto;
+padding-bottom:2%;
+}
+
+#dogphone img{
+width:100%;
+}
+
+
+footer {
+    margin: 50px 0;
+}

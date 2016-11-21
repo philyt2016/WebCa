@@ -1,0 +1,88 @@
+
+
+@*
+ * Call the `main` template with two arguments. The first
+ * argument is a `String` with the title of the page, the second
+ * argument is an `Html` object containing the body of the page.
+ *@
+@main("admin") {
+
+    <div class="col-md-9">
+
+                <div class="thumbnail">
+                    <img src="http://www.lifestylepets.org/wp-content/uploads/2015/11/pet_composite-670x300.jpg" alt="pets">
+                    <div class="caption-full">
+                    </div>
+                       
+                </div>
+
+                <div class="well">
+
+                 <h2 class = "text-center">Admin</h2>     
+
+                   
+
+                    
+
+                    
+
+                    
+                    
+
+                     
+
+                    <div class = "try">
+					 <div class="row">
+                        <form class="form-horizontal">
+					<fieldset>
+						<h4 class = "text-center">Create/Update</h4>
+						<div class="well">
+						<h5 class ="text-center">Complete form to create or update products</h5>
+						
+						<!-- Form row (group)  1 First name-->
+						<form class="form-horizontal">
+						<div class="form-group">
+						<br>
+						<label for="inputPName" class="control-label col-xs-3">Product Name</label>
+						<div class="col-sm-6">
+						<input type="Product Name" class="form-control" id="inputPName" placeholder="Product Name">
+						</div>
+						</div>
+						
+						
+						<div class="form-group">
+						<label for="inputPDesc" class="control-label col-xs-3">Product Desc</label>
+						<div class="col-sm-6">
+						<input type="Product Desc" class="form-control" id="inputPDesc" placeholder="Product Desc">
+						</div>
+						</div>
+						<form class="form-horizontal">
+						
+						<div class="form-group">
+                        <label for="input price" class="control-label col-xs-3">Item Price</label>
+                        <div class="col-sm-6">
+                        <input class="form-control" type="text" id="price" placeholder="Price">
+                        </div>
+                        </div>
+					
+                    
+					   <div class="form-group">
+                       <label for="input pAmount" class="control-label col-xs-3">No of Items</label>
+                       <div class="col-sm-6">
+                       <input class="form-control" type="number" value="0" id="pAmount">
+                       </div>
+                       </div>
+					
+					
+					
+                 </div>
+				 </div>
+				 </div>
+
+                    
+
+                    
+            </div>
+
+        </div>
+}
